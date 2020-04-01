@@ -1,0 +1,22 @@
+#include <fstream>
+#include <string>
+using namespace std;
+string t[100];
+int main()
+{ 
+    ifstream plik2;
+    string a;
+    int licznik=0;
+ 
+     plik2.open("c:\jakisplik.txt");
+     if(plik.good())
+       while(!plik2.eof(t[100];))       
+	   {
+	   	 plik2 >> jakisplik;   
+         cout << licznik++ << ":" << jakisplik;  
+         cout << endl; 
+      } 
+    plik2.close();
+
+    return 0;
+}
